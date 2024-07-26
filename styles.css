@@ -1,17 +1,22 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#newGridButton {
+  margin-bottom: 20px;
+}
+
 .container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1024px; /* Adjust the width to fit 16 squares */
-    height: 1024px; /* Adjust the height to fit 16 squares */
-  }
-  
-  .square {
-    width: 64px; /* Adjust the width to fit 16 squares in a row */
-    height: 64px; /* Adjust the height for a square */
-    border: 1px solid black;
-    box-sizing: border-box; /* Ensure padding and border are included in the width and height */
-  }
-  
-  .square:hover {
-    background-color: lightblue; /* Change to any color you like */
-  }
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px; /* Adjust the width to fit the squares */
+  height: 960px; /* Adjust the height to fit the squares */
+  border: 1px solid black;
+}
+
+.square {
+  border: 1px solid black;
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+}
