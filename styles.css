@@ -12,3 +12,6 @@
     box-sizing: border-box; /* Ensure padding and border are included in the width and height */
   }
   
+  .square:hover {
+    background-color: lightblue; /* Change to any color you like */
+  }
